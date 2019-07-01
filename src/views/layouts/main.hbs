@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> head}}
+</head>
+
+<body>
+    <header>
+        {{> header}}
+    </header>
+    <main>
+        {{{ body }}}
+    </main>
+    <footer>
+        {{> footer}}
+    </footer>
+    {{#if js}}
+    <script src="js/{{js}}.js"></script>
+    {{/if}}
+</body>
+
+</html>

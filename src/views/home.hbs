@@ -1,0 +1,16 @@
+<div class="container">
+    <form action="/add-post" method="post" class="sendPost-form">
+        <textarea name="post-area" class="post-area" cols="55" rows="5" placeholder="Enter your thoughts"
+            class="post-area"></textarea>
+        <input type="submit" value="Post" class="sendPost-btn">
+    </form>
+    <div class="posts-div">
+        {{#each posts}}
+        <div class="post">
+            <div class="post-header"><i class="fas fa-user-circle"></i><span class="user-name">{{this.first_name}}
+                    {{this.last_name}} : </span></div>
+            <div class="post-content">{{this.post}}</div>
+        </div>
+        {{/each}}
+    </div>
+</div>

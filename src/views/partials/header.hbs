@@ -1,0 +1,9 @@
+<nav class="nav">
+    <span class="logo">Adding-Posts</span>
+    {{#if link}}
+    <button onclick="window.location.href='{{link}}'" , class="sign-btn">{{button-value}}</button>
+    {{else}}
+    <button onclick="fetch('/logout').then(() => window.location.href = '/signin')" ,
+        class="sign-btn">{{button-value}}</button>
+    {{/if}}
+</nav>

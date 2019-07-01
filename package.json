@@ -1,0 +1,39 @@
+{
+  "name": "Posts-Handlebars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/database/build.js && node src/index.js",
+    "start:watch": "nodemon src/index.js",
+    "test": "tape test/database.test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG6/Posts-Handlebars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG6/Posts-Handlebars/issues"
+  },
+  "homepage": "https://github.com/FACG6/Posts-Handlebars#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "istanbul": "^0.4.5",
+    "supertest": "^3.4.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  },
+  "dependencies": {
+    "env2": "^2.2.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "jsonwebtoken": "^8.5.0",
+    "pg": "^7.8.1"
+  }
+}

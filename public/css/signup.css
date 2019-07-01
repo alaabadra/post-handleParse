@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.nav {
+  display: flex;
+  background: #efa1a1;
+  height: 30px;
+  justify-content: space-between;
+}
+.logo {
+  margin: 0 auto;
+}
+.sign-btn,
+.submit-btn {
+  background: skyblue;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 25px;
+  width: 100px;
+  margin: auto 0;
+  margin-right: 10px;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10% auto;
+  justify-content: space-between;
+}
+input {
+  margin-bottom: 10px;
+  height: 40px;
+  border: 0;
+  border-bottom: 2px solid #efa1a1;
+}
+input:focus {
+  box-shadow: 1px 1px 2px 2px #efa1a1;
+  padding: 5px;
+}
+.submit-btn {
+  margin: 10px auto;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  background: #efa1a1;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
