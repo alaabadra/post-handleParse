@@ -27,8 +27,8 @@ Run this project on your Local Machine
 
 1- Clone the repo:
 
-> $ git clone https://github.com/FACG6/Posts-Handlebars   
-> $ cd Posts-Handlebars/  
+> $ git clone https://github.com/alaabadra/post-handleParse/ 
+> $ cd post-handleParse/  
 > \$ npm install
 
 2- create your own config.env with SECRET string.
