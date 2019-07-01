@@ -44,4 +44,4 @@ inside of it put :
 Head to [localhost:4000](http://localhost:4000) in your browser
 
 
-## Visit our [Website](https://posts-handlebars.herokuapp.com)
+
